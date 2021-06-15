@@ -15,7 +15,7 @@ RUN cd /usr/src && \
     CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p') \
     CONFARGS=${CONFARGS/-Os -fomit-frame-pointer -g/-Os} && \
     echo $CONFARGS && \
-    ./configure --with-compat $CONFARGS --add-dynamic-module=../memc-nginx-module/ && \
+    ./configure --with-compat $CONFARGS --add-dynamic-module=../$MODULE_NAME/ && \
     make modules
 
 FROM scratch

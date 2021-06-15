@@ -14,7 +14,7 @@ RUN cd /usr/src && \
     mv "$MODULE_NAME-$MODULE_VERSION" "$MODULE_NAME" && \
     cd /usr/src/nginx && \
     echo $CONFARGS && \
-    ./configure --with-compat $CONFARGS --add-dynamic-module=../memc-nginx-module/ && \
+    ./configure --with-compat $CONFARGS --add-dynamic-module=../$MODULE_NAME/ && \
     make modules
 
 FROM scratch
