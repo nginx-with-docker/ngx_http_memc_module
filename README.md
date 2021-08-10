@@ -16,6 +16,22 @@ An extended version of the standard memcached module that supports set, add, del
     </thead>
     <tbody>
         <tr>
+            <td>1.21.1</td>
+            <td>master (2020.10)</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-memc-master</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-memc-master-alpine</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>1.21.1</td>
+            <td>0.19 (2018.04)</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-memc-0.19</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.1-memc-0.19-alpine</li>
+            </ul></td>
+        </tr>
+        <tr>
             <td>1.21.0</td>
             <td>master (2020.10)</td>
             <td><ul>
